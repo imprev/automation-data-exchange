@@ -38,12 +38,11 @@
     }
   },
   "required": [
-    "commandVersion",
+    "eventMessageVersion",
     "eventOccurredTimestamp",
     "id",
     "externalUserId",
     "externalListingId",
-    "externalMlsId",
     "imprevUserId",
     "imprevAppId",
     "imprevListingId",
