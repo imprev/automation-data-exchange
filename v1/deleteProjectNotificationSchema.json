@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    " eventMessageVersion": {
+      "type": "integer"
+    },
+    "eventOccurredTimestamp": {
+      "type": "integer"
+    },
+    "id": {
+      "type": "string",
+      "description": "unique identifier for this project"
+    },
+    "externalUserId": {
+      "type": "string"
+    },
+    "externalListingId": {
+      "type": "string"
+    },
+    "externalMlsId": {
+      "type": "string"
+    },
+    "mlsListingId": {
+      "type": "string"
+    },
+    "imprevUserId": {
+      "type": "integer"
+    },
+    "imprevAppId": {
+      "type": "integer"
+    },
+    "imprevListingId": {
+      "type": "string"
+    },
+    "projectId": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "eventMessageVersion",
+    "eventOccurredTimestamp",
+    "id",
+    "externalUserId",
+    "externalListingId",
+    "imprevUserId",
+    "imprevAppId",
+    "imprevListingId",
+    "projectId"
+  ]
+}
